@@ -1,10 +1,11 @@
 /* Code box */
 
-codebox {
+.codebox {
     background: #f0f0f0;
-    width: auto;
-    height: auto;
-    border: 1px solid black;
+    width: 690px;
+    height: 620px;
+    padding: 10px;
+    overflow: scroll;
 }
 
 /* Highlight colors */
@@ -122,6 +123,23 @@ silver {
     color: silver;
 }
 
+maroon {
+    color: maroon;
+}
+
+darkpink {
+    color: #bb0092;
+}
+/* These are the desired colors we have added and we know! */
+/* this css stylesheet is for code highlighting/syntax highlighting, or whatever you say */
+
+/* Now for the error part */
+
+error {
+    background-color: gold;
+    color: black, red;
+    /* Use any of it by deleting the text black or red! */
+}
 maroon {
     color: maroon;
 }
