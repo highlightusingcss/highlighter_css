@@ -1,0 +1,141 @@
+/* Code box */
+
+codebox {
+    background: #f0f0f0;
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+/* Highlight colors */
+
+red {
+    color: red;
+}
+blue {
+    color: blue;
+}
+yellow {
+    color: yellow;
+}
+green {
+    color: green;
+}
+
+purple {
+    color: purple;
+}
+
+gray {
+    color: gray;
+}
+
+grey {
+    color: gray;
+}
+
+lime {
+    color: limegreen;
+}
+
+pink {
+    color: pink;
+}
+
+teal {
+    color: teal;
+}
+
+aqua {
+    color: aqua;
+}
+
+aquamarine {
+    color: aquamarine;
+}
+
+skyblue {
+    color: skyblue;
+}
+
+lightgray {
+    color: lightgray;
+}
+
+lightgrey {
+    color: lightgray;
+}
+
+violet {
+    color: violet;
+}
+
+darkviolet {
+    color: darkviolet;
+}
+
+default {
+    color: black;
+}
+
+raw {
+    color: black;
+}
+
+black {
+    color: black;
+}
+
+indigo {
+    color: indigo;
+}
+
+orange {
+    color: orange;
+}
+
+darkorange {
+    color: orangered;
+}
+
+cyan {
+    color: cyan;
+}
+
+darkcyan {
+    color: darkcyan;
+}
+
+brown {
+    color: brown;
+}
+
+yellowgreen {
+    color: greenyellow;
+}
+
+gold {
+    color: gold;
+}
+
+silver {
+    color: silver;
+}
+
+maroon {
+    color: maroon;
+}
+
+darkpink {
+    color: #bb0092;
+}
+/* These are the desired colors we have added and we know! */
+/* this css stylesheet is for code highlighting/syntax highlighting, or whatever you say */
+
+/* Now for the error part */
+
+error {
+    background-color: gold;
+    color: black, red;
+    /* Use any of it by deleting the text black or red! */
+}
