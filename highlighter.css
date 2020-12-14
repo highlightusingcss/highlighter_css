@@ -8,6 +8,28 @@
     overflow: scroll;
 }
 
+/* Code box copy button */
+
+.copy {
+    width: 80px;
+    height: 42px;
+    background-color: #232b2b;
+    color: white;
+    border: none!important;
+    outline: none!important;
+}
+
+.copy:hover {
+    background-color: #007a25;
+    cursor: pointer;
+}
+
+/* Watermark */
+
+watermark {
+    color: #f0f0f0;
+}
+
 /* Highlight colors */
 
 red {
@@ -123,23 +145,6 @@ silver {
     color: silver;
 }
 
-maroon {
-    color: maroon;
-}
-
-darkpink {
-    color: #bb0092;
-}
-/* These are the desired colors we have added and we know! */
-/* this css stylesheet is for code highlighting/syntax highlighting, or whatever you say */
-
-/* Now for the error part */
-
-error {
-    background-color: gold;
-    color: black, red;
-    /* Use any of it by deleting the text black or red! */
-}
 maroon {
     color: maroon;
 }
